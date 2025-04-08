@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F3DBD; /* Deep blue */
+  }
+  
+  .red-rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    background-color: #E54324; /* Red */
+  }
+  
+  .yellow-circle {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background-color: #FFEC3E; /* Yellow */
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+  }

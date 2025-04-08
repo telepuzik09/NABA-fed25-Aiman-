@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.composition {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.red-rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 45%;
+  background-color: #ff1500; /* Vibrant red */
+}
+
+.blue-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0531a0; /* Rich blue */
+  z-index: -1;
+}
+
+.yellow-circle {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  width: 25%;
+  height: 25%;
+  background-color: #f2ff02; /* Bright yellow */
+  border-radius: 50%;
+}
